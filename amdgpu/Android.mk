@@ -16,4 +16,4 @@ LOCAL_CFLAGS := \
 LOCAL_REQUIRED_MODULES := amdgpu.ids
 
 include $(LIBDRM_COMMON_MK)
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_both_libraries)

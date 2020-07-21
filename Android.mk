@@ -69,6 +69,6 @@ LOCAL_C_INCLUDES := \
         $(LOCAL_PATH)/include/drm
 
 include $(LIBDRM_COMMON_MK)
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_both_libraries)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))

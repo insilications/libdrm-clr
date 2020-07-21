@@ -41,7 +41,7 @@ if with_exynos
   libkms_include += include_directories('../exynos')
 endif
 
-libkms = shared_library(
+libkms = both_libraries(
   'kms',
   [files_libkms, config_file],
   c_args : libdrm_c_args,

@@ -10,4 +10,4 @@ LOCAL_SHARED_LIBRARIES := libdrm
 
 include $(LIBDRM_COMMON_MK)
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_both_libraries)

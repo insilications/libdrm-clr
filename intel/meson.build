@@ -18,7 +18,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-libdrm_intel = shared_library(
+libdrm_intel = both_libraries(
   'drm_intel',
   [
     files(

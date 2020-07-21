@@ -21,7 +21,7 @@
 
 datadir_amdgpu = join_paths(get_option('prefix'), get_option('datadir'), 'libdrm')
 
-libdrm_amdgpu = shared_library(
+libdrm_amdgpu = both_libraries(
   'drm_amdgpu',
   [
     files(

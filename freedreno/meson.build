@@ -39,7 +39,7 @@ if with_freedreno_kgsl
   )
 endif
 
-libdrm_freedreno = shared_library(
+libdrm_freedreno = both_libraries(
   'drm_freedreno',
   [files_freedreno, config_file],
   c_args : libdrm_c_args,
